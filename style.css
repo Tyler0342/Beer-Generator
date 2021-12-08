@@ -109,6 +109,30 @@ body {
     flex-direction: column;
   }
   
+  .beer-pic {
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+  }
+
+  .like-glyph {
+  cursor: pointer;
+}
+
+.activated-heart {
+  color: red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+}
+
+
  
 
 
