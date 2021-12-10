@@ -40,6 +40,10 @@ const createBeerImage = (beerPic) => {
  startBtn.addEventListener('click', getBeer)
 
 })
+
+//I literally copied and pasted this from one of the lessons
+//i think we should not fill in the heart but have it count towards likes and have a counter near the favorite button
+
 const EMPTY_HEART = "♡";
 const FULL_HEART = "♥";
 
