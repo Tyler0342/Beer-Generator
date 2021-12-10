@@ -44,7 +44,6 @@ body {
 }
 
 
-
 .beer-button {
     margin: 0;
     position:absolute;
@@ -109,10 +108,10 @@ body {
     flex-direction: column;
   }
   
-  .beer-pic {
+  .beer-image {
       height: 100vh;
       width: 100vw;
-      position: relative;
+      position: center;
   }
 
   .like-glyph {

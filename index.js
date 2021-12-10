@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',() => {
     const randomBeer = document.querySelector('.random-beer')
     const descriptionDisplay = document.querySelector('.description')
     const foodPairingDisplay = document.querySelector('.food-pairing')
-    const beerMenu = document.getElementById("beer-menu")
+    const beerImage = document.getElementById("beer-image")
    
     
  function getBeer(e) {
@@ -34,7 +34,7 @@ const createBeerImage = (beerPic) => {
   img.alt = beerPic.name
   img.id = beerPic.id
 
-  beerMenu.append(img)
+  beerImage.append(img)
 }
 
  startBtn.addEventListener('click', getBeer)
